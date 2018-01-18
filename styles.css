@@ -1,0 +1,8 @@
+body{background-color:powderblue;}
+pre{border: 1px solid red;
+	padding: 5px 5px 5px 25px;
+	margin: 50px;}
+#lien1{color:orange;
+	font-family:courier;}
+.test1{background-color:pink;}
+p.test1{background-color:grey;}
