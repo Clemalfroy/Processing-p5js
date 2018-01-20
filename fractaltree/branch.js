@@ -12,7 +12,7 @@ function branch (begin, end) {
         this.finished = true;
         var dir = p5.Vector.sub(this.end, this.begin);
         dir.rotate(angle);
-        dir.mult(0.8);
+        dir.mult(random(0.75, 0.85));
         var newEnd = p5.Vector.add(this.end, dir);
         var newBranch = new branch(this.end, newEnd);
         return newBranch;
