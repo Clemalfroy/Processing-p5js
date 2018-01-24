@@ -11,3 +11,9 @@ body {
 .navbar-burger {
     margin-left: 0px;
 }
+
+.navbar {
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #969aa9;
+}
