@@ -1,42 +1,9 @@
+html {
+    height:100%;
+    background-image: url(ressources/fond6.png);
+    background-repeat: repeat   ;
+}
+
 body {
     margin: 0px;
-    background-color: lightgray;
-}
-
-div.header {
-    top: 0;
-    height: 75px;
-    background-color: rgb(63, 63, 63);
-    color:white;
-    width:100%;
-    position: sticky;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: "Segoe UI",Arial,sans-serif;
-}
-
-div.onethird {
-    float:left;
-    text-align: center;
-    width:33.3%;
-}
-
-div.bar {
-    padding: 26px;
-}
-
-div.twothird {
-    float:left;
-    width:66.6%;
-}
-
-div.core {
-    margin:20px;
-}
-
-
-div.bar:hover {
-    color:white;
-    background-color: rgb(39, 39, 39); 
-}
+}   

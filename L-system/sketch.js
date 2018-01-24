@@ -42,7 +42,7 @@ function handleChar(current) {
       } else if (current == "+") {
         rotate(radians(random(20,30)));
       } else if (current == "-") {
-        rotate(-radians(random(20, 30)));
+        rotate(radians(random(20, 30)));
       } else if (current == "[") {
         push();
       } else if (current == "]") {
@@ -61,10 +61,12 @@ function turtle() {
   }
 }
 
+function mousePressed() {
+	generate();
+}
+
 function setup() {
   createCanvas(600, 600);
   background(50);
   turtle();
-  var button = createButton("generate");
-  button.mousePressed(generate);
 }
